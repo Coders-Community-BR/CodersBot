@@ -6,4 +6,4 @@ import src.log as log
 def setup(bot: Bot):
     @bot.event
     async def on_ready():
-        log.message('eu estou pronto!')
+        log.message('Eu estou pronto :)')
